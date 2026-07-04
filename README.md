@@ -42,6 +42,18 @@ Agentic AI prototype for continuous freight-searching scenarios in logistics pla
 
 Repository: https://github.com/Torch-ju/freight-matching-agent
 
+### my-quant-lab
+
+Python-based learning lab for quantitative research, focused on A-share ETFs and US ETFs.
+
+- Positioning: beginner-friendly local research workbench, not a live trading system
+- Current workflow: data cache -> strategy backtest -> parameter scan -> out-of-sample validation -> rolling validation -> candidate ranking -> QuantStats report -> Streamlit dashboard
+- Current modules: AKShare / yfinance data cache, OHLCV normalization, moving-average strategy, hand-written backtest engine, backtesting.py comparison, QuantStats reporting, Streamlit research UI
+- Recent UI update: single-candidate research card with factor breakdown, current backtest, rolling validation, research conclusion, and risk notes
+- Safety boundary: no broker connection, no automated orders, no real API keys, no personal financial account information
+
+Repository: https://github.com/Torch-ju/my-quant-lab
+
 ### Modular Autonomous Logistics Fleet Research
 
 PhD research on modular electric autonomous logistics fleet routing and robust scheduling.
