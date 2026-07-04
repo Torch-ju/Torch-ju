@@ -4,6 +4,14 @@
 
 `AI Agent for Logistics` · `Operations Research` · `Routing & Scheduling` · `Decision Intelligence`
 
+## Quick Links
+
+- Personal website: https://torch-ju.github.io/
+- Public resume repository: https://github.com/Torch-ju/resume
+- One-page visual resume PDF: https://github.com/Torch-ju/resume/blob/main/assets/caspian_liang_resume_v3_public_visual_interviewer.pdf
+- Visual resume PNG preview: https://github.com/Torch-ju/resume/blob/main/assets/caspian_liang_resume_v3_public_visual_interviewer.png
+- Freight Matching Agent case study: https://github.com/Torch-ju/freight-matching-agent
+
 ## Proof Snapshot
 
 | Signal | Evidence |
@@ -41,18 +49,6 @@ Agentic AI prototype for continuous freight-searching scenarios in logistics pla
 - Disclosure status: public README is conservative until screenshots and personal contribution boundaries are confirmed
 
 Repository: https://github.com/Torch-ju/freight-matching-agent
-
-### my-quant-lab
-
-Python-based learning lab for quantitative research, focused on A-share ETFs and US ETFs.
-
-- Positioning: beginner-friendly local research workbench, not a live trading system
-- Current workflow: data cache -> strategy backtest -> parameter scan -> out-of-sample validation -> rolling validation -> candidate ranking -> QuantStats report -> Streamlit dashboard
-- Current modules: AKShare / yfinance data cache, OHLCV normalization, moving-average strategy, hand-written backtest engine, backtesting.py comparison, QuantStats reporting, Streamlit research UI
-- Recent UI update: single-candidate research card with factor breakdown, current backtest, rolling validation, research conclusion, and risk notes
-- Safety boundary: no broker connection, no automated orders, no real API keys, no personal financial account information
-
-Repository: https://github.com/Torch-ju/my-quant-lab
 
 ### Modular Autonomous Logistics Fleet Research
 
@@ -93,6 +89,7 @@ Current related repository: https://github.com/Torch-ju/e-vrptw
 
 - Website: https://torch-ju.github.io/
 - GitHub: https://github.com/Torch-ju
+- Visual resume PDF: https://github.com/Torch-ju/resume/blob/main/assets/caspian_liang_resume_v3_public_visual_interviewer.pdf
 
 ---
 
