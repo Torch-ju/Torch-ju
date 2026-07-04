@@ -8,7 +8,7 @@
 - Research interests: logistics optimization, routing and scheduling, multimodal transport, and decision intelligence.
 - Building AI Agent prototypes for logistics and supply chain scenarios.
 - Interested in the intersection of Operations Research, Agentic AI, and intelligent transportation systems.
-- Industrial resume: in progress.
+- Industrial resume: https://github.com/Torch-ju/resume
 - GitHub: https://github.com/Torch-ju
 
 ## Current Focus
