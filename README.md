@@ -12,6 +12,13 @@
 - Visual resume PNG preview: https://github.com/Torch-ju/resume/blob/main/assets/caspian_liang_resume_v3_public_visual_interviewer.png
 - Freight Matching Agent case study: https://github.com/Torch-ju/freight-matching-agent
 
+## Reviewer Path
+
+1. Start with the one-page visual resume for a fast scan of education, projects, research, awards, and method tags.
+2. Read the Freight Matching Agent case study to understand my current AI Agent + logistics decision-intelligence direction.
+3. Use `e-vrptw` and `MDVRP-Instances` as OR / routing background evidence, not as production-system claims.
+4. Treat `ACS-KM-code` and `jpt-amz` as archival or external-code learning references. They are not positioned as my original main portfolio projects.
+
 ## Proof Snapshot
 
 | Signal | Evidence |
@@ -90,6 +97,12 @@ Current related repository: https://github.com/Torch-ju/e-vrptw
 - Website: https://torch-ju.github.io/
 - GitHub: https://github.com/Torch-ju
 - Visual resume PDF: https://github.com/Torch-ju/resume/blob/main/assets/caspian_liang_resume_v3_public_visual_interviewer.pdf
+
+## Public Boundary
+
+- Public materials only include desensitized, review-safe facts.
+- Direct contact channels, internal company materials, restricted screenshots, and unapproved identity assets are intentionally excluded.
+- Demos and research prototypes are described as prototypes or case studies, not as production systems.
 
 ---
 
