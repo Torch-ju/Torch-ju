@@ -1,69 +1,117 @@
-# Hi, I'm Chengju Liang
+<div align="center">
 
-> Transportation PhD candidate at Beijing Jiaotong University, exploring AI Agents for logistics decision-making, operations research, and intelligent transportation systems.
+# Hi, I'm Chengju Liang / 梁程炬 👋
 
-## About Me
+### Decision Intelligence for Logistics
 
-- PhD candidate in Transportation, Beijing Jiaotong University, 2024-2028.
-- Research interests: logistics optimization, routing and scheduling, multimodal transport, and decision intelligence.
-- Building AI Agent prototypes for logistics and supply chain scenarios.
-- Interested in the intersection of Operations Research, Agentic AI, and intelligent transportation systems.
-- Industrial resume: https://github.com/Torch-ju/resume
-- GitHub: https://github.com/Torch-ju
+**AI Agents × Operations Research × Transportation**
 
-## Current Focus
+Transportation PhD candidate at Beijing Jiaotong University, working on how complex logistics contexts can be translated into explicit constraints and defensible decisions.
 
-- AI Agent products and solutions for logistics decision-making.
-- Freight matching and continuous load-searching workflows.
-- Electric vehicle pickup and delivery routing with practical constraints.
-- Logistics information service platforms and transportation digitalization.
+[Personal Website](https://torch-ju.github.io/) · [Freight Matching Agent](https://github.com/Torch-ju/freight-matching-agent)
 
-## Featured Projects
+</div>
 
-### Freight Matching Agent
+## 🧭 My Decision Intelligence Philosophy: The 3C Framework
 
-Agentic AI prototype for continuous freight-searching scenarios.
+### **Context → Constraints → Choice**
 
-- Competition: Manbang / Tianchi-related Agentic AI competition
-- Official page: https://tianchi.aliyun.com/competition/entrance/532467/information
-- Result: Top 24 / 963, finalist award
-- Keywords: AI Agent, freight matching, logistics workflow, tool calling, decision support
+I build decision-intelligence workflows around three connected questions: **What is happening in the real logistics context? Which business rules and uncertainties constrain feasible action? How can an algorithm or AI Agent produce a choice that is explainable, testable, and ready for human confirmation?**
 
-Repository: https://github.com/Torch-ju/freight-matching-agent
+| | Principle | What it means in my work |
+|---|---|---|
+| 🧭 | **Context** | Understand users, freight flows, vehicle states, operational processes, and the real objective behind a decision. |
+| 🧩 | **Constraints** | Translate preferences, time windows, capacity, energy, risk, and business rules into optimization models, Agent state, and tool logic. |
+| ✅ | **Choice** | Generate decisions through optimization and Agent workflows, then validate results with experiments, safeguards, and human checkpoints. |
 
-### AI Agent Application Demo
+This is the thread connecting my work in vehicle routing, dynamic scheduling, robust optimization, freight-searching Agents, and logistics product prototypes.
 
-An intelligent agent application prototype built for the Volcano Cup.
+## 🔎 Current Focus
 
-- Demo: available, result pending
-- Public write-up will be added after disclosure boundaries are confirmed.
+- **Agentic decision workflows** for freight matching and continuous load-searching.
+- **Vehicle routing and dynamic scheduling** under time, capacity, energy, and uncertainty constraints.
+- **Optimization + Agent collaboration**, with LLMs handling intent and structured interpretation while decision algorithms enforce feasibility.
+- **Evaluation and failure analysis**, including bad-case review, hidden-preference generalization, and human-in-the-loop validation.
 
-### EV Pickup and Delivery Routing Optimization
+## 📌 Evidence at a Glance
 
-Research project on electric vehicle pickup and delivery routing optimization considering queuing effects and wireless charging lanes.
+| Signal | Public evidence |
+|---|---|
+| 🚚 Freight Agent | Top 24 / 963, finalist award |
+| 📄 Research | ASCE JUPD accepted / in production; ICTTS 2026 EI accepted |
+| 🎓 Academic | Graduate National Scholarship; master's ranking 14 / 152 |
+| 🧮 Methods | VRP / EVRPTW / MVRPTW, MILP, ALNS, SAA, Wasserstein DRO, CVaR |
 
-- Accepted by ICTTS 2026
-- Keywords: pickup and delivery, routing optimization, queuing effects, wireless charging lanes
+## 🧪 Selected Work
 
-Current related repository: https://github.com/Torch-ju/e-vrptw
+### 🚚 Freight Matching Agent
 
-## Publications
+An Agentic AI prototype for continuous freight-searching decisions.
 
-- Electric Vehicle Pickup and Delivery Routing Optimization Considering Queuing Effects and Wireless Charging Lanes. ICTTS 2026. Accepted.
-- Three-Party Evolutionary Game Analysis on Logistics Sprawl Intervention and Mitigation Framework for Sustainable Urban Distribution. Journal of Urban Planning and Development, ASCE. Accepted / In Production.
+- Models sequential actions such as accepting a load, waiting, or repositioning.
+- Connects driver preferences and operating constraints with executable rules and short-horizon planning.
+- Uses simulation, parameter experiments, boundary checks, and action logs to diagnose decision quality.
+- Public result: **Top 24 / 963, finalist award**.
 
-## Skills
+→ [Read the public case study](https://github.com/Torch-ju/freight-matching-agent)
 
-- Operations Research: routing optimization, logistics network optimization, mathematical modeling, evolutionary game analysis.
-- AI Agent: workflow design, prompt engineering, tool calling, demo prototyping.
-- Tools: Python, Git, optimization modeling and logistics case analysis.
+### 🚐 Modular Autonomous Logistics Fleet Research
 
-## Contact
+PhD research on modular electric logistics fleet routing and robust scheduling.
 
-- Email: available on request.
-- Website: in progress.
-- GitHub: https://github.com/Torch-ju
+- **Context:** urban last-mile delivery with dynamic orders and uncertain demand.
+- **Constraints:** modular composition, capacity-energy coordination, charging, time windows, and service recovery.
+- **Choice:** MILP validation, tabu search / ALNS, rolling optimization, SAA, Wasserstein DRO, CVaR, and recoverable scheduling.
+
+Status: research in progress. Public descriptions distinguish proposed methods from completed results.
+
+### ⚡ Electric Vehicle Pickup-and-Delivery Routing
+
+Research on electric vehicle pickup-and-delivery routing with queuing effects and wireless charging lanes.
+
+- Accepted by **ICTTS 2026 (EI)**.
+- Focuses on translating charging and queuing operations into routing decisions.
+
+→ [Explore the related routing repository](https://github.com/Torch-ju/e-vrptw)
+
+### 🎓 Conversational Campus Delivery Agent
+
+A competition prototype exploring natural-language ordering for campus delivery.
+
+- Designed the flow from intent recognition and missing-field clarification to order confirmation and tracking.
+- Connected campus POIs, local road-network data, ETA estimation, and heuristic vehicle dispatch in a runnable demo.
+- Followed the boundary: **LLM for understanding, backend algorithms for decisions**.
+
+## 📚 Selected Publications
+
+- **Electric Vehicle Pickup and Delivery Routing Optimization Considering Queuing Effects and Wireless Charging Lanes.** ICTTS 2026. Accepted.
+- **Three-Party Evolutionary Game Analysis on Logistics Sprawl Intervention and Mitigation Framework for Sustainable Urban Distribution.** *Journal of Urban Planning and Development*, ASCE. Accepted / In Production. [DOI](https://doi.org/10.1061/JUPDDM/UPENG-6343)
+
+## 🧰 Research & Engineering Toolkit
+
+- **Operations Research:** vehicle routing, scheduling, mathematical modeling, robust optimization, evolutionary game analysis.
+- **Decision algorithms:** MILP, ALNS, tabu search, rolling optimization, SAA, Wasserstein DRO, CVaR, TOPSIS.
+- **AI Agent practice:** task decomposition, structured interpretation, workflow design, tool integration, result validation, prototype evaluation.
+- **Tools:** Python, MATLAB, PyTorch, Git, and AI-assisted development workflows.
+
+## 🗺️ Reviewer Path: How to Explore My Work
+
+1. Start with the **3C Framework** above to understand the common logic behind my projects.
+2. Read the **Freight Matching Agent** case study for my current Agent + logistics direction.
+3. Use routing repositories as evidence of my OR background. `ACS-KM-code` and `jpt-amz` are archival or external-code learning references, not original flagship projects.
+4. Visit my [personal website](https://torch-ju.github.io/) for a broader research and project map.
+
+## 🛡️ Public Boundary
+
+- This profile contains only desensitized, review-safe facts.
+- Direct contact channels, private application records, internal company materials, and restricted screenshots are intentionally excluded.
+- Competition demos and research artifacts are described as prototypes, case studies, or work in progress, not production systems.
+- Forked or archival repositories are learning references unless explicitly identified as original work.
 
 ---
 
-This profile is being actively updated as I organize my research, projects, and industrial resume.
+<div align="center">
+
+**Building decisions that respect both mathematical structure and operational reality.**
+
+</div>
