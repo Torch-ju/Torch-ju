@@ -2,120 +2,112 @@
 
 # Hi, I'm Chengju Liang / 梁程炬 👋
 
-### Decision Intelligence for Logistics
+### AI Agent × Operations Research × Logistics Decision Intelligence
 
-**AI Agents × Operations Research × Transportation**
-
-Transportation PhD candidate at Beijing Jiaotong University, working on how complex logistics contexts can be translated into explicit constraints and defensible decisions.
+Transportation PhD candidate at Beijing Jiaotong University. I work on how logistics problems can be translated into **LLM-understandable tasks**, **optimization-aware constraints**, and **decision workflows that humans can verify**.
 
 [Personal Website](https://torch-ju.github.io/) · [Jiaoda Weilan Showcase](https://github.com/Torch-ju/jiaoda-weilan-showcase) · [Freight Matching Agent](https://github.com/Torch-ju/freight-matching-agent) · [Quant Research Lab](https://github.com/Torch-ju/my-quant-lab)
 
 </div>
 
-## 🧭 My Decision Intelligence Philosophy: The 3C Framework
+## 🧭 My Working Philosophy: The SCA Loop
 
-### **Context → Constraints → Choice**
+### **Scenario → Constraint → Agent**
 
-I build decision-intelligence workflows around three connected questions: **What is happening in the real logistics context? Which business rules and uncertainties constrain feasible action? How can an algorithm or AI Agent produce a choice that is explainable, testable, and ready for human confirmation?**
+My current work is built around one practical question:
 
-| | Principle | What it means in my work |
+> How can we turn messy logistics scenarios into Agent workflows that can understand intent, respect operational constraints, and produce decisions worth checking?
+
+| | Layer | What I care about |
 |---|---|---|
-| 🧭 | **Context** | Understand users, freight flows, vehicle states, operational processes, and the real objective behind a decision. |
-| 🧩 | **Constraints** | Translate preferences, time windows, capacity, energy, risk, and business rules into optimization models, Agent state, and tool logic. |
-| ✅ | **Choice** | Generate decisions through optimization and Agent workflows, then validate results with experiments, safeguards, and human checkpoints. |
+| 🧭 | **Scenario** | Start from real logistics processes: freight-searching, campus delivery, vehicle routing, time windows, user preferences, and operational bottlenecks. |
+| 🧩 | **Constraint** | Convert natural language, business rules, uncertainty, time, capacity, energy, and risk into explicit models, rules, scoring functions, and validation gates. |
+| 🤖 | **Agent** | Use LLMs, prompt workflows, tool use, state tracking, and full-stack demos to make decision support interactive, inspectable, and testable. |
 
-This is the thread connecting my work in vehicle routing, dynamic scheduling, robust optimization, freight-searching Agents, and logistics product prototypes.
+This is not a slogan for me. It is the line connecting my research in vehicle routing and robust optimization with my recent work on logistics AI Agents, prompt engineering, vibe coding, and application prototypes.
 
-## 🔎 Current Focus
+## 🔎 Current Direction
 
-- **Agentic decision workflows** for freight matching and continuous load-searching.
-- **Vehicle routing and dynamic scheduling** under time, capacity, energy, and uncertainty constraints.
-- **Optimization + Agent collaboration**, with LLMs handling intent and structured interpretation while decision algorithms enforce feasibility.
-- **Evaluation and failure analysis**, including bad-case review, hidden-preference generalization, and human-in-the-loop validation.
+- **AI Agents for logistics decisions:** freight-searching Agents, conversational campus delivery, task decomposition, tool-use workflow, state tracking, and result validation.
+- **Operations research and optimization:** VRP / EVRPTW / pickup-and-delivery routing, scheduling, MILP, heuristic search, SAA, Wasserstein DRO, CVaR, and robust decision modeling.
+- **LLM + algorithm boundary design:** LLMs handle intent, preference extraction, and workflow orchestration; deterministic rules and optimization logic handle feasibility and decision quality.
+- **AI-assisted full-stack building:** I use AI coding tools heavily to turn product ideas into runnable demos, tests, documentation, and public-safe project packages.
 
 ## 📌 Evidence at a Glance
 
-| Signal | Public evidence |
+| Signal | Public-safe evidence |
 |---|---|
-| 🚚 Freight Agent | Top 24 / 963, finalist award |
-| 📄 Research | ASCE JUPD accepted / in production; ICTTS 2026 EI accepted |
-| 🎓 Academic | Graduate National Scholarship; master's ranking 14 / 152 |
-| 🧮 Methods | VRP / EVRPTW / MVRPTW, MILP, ALNS, SAA, Wasserstein DRO, CVaR |
+| 🚚 Freight Matching Agent | Alibaba Tianchi / Manbang logistics AI competition: **Top 24 / 963, finalist award**, solo |
+| 🎓 Jiaoda Weilan | Conversational campus delivery Agent; product lead / team captain; full-stack runnable demo and public showcase |
+| 📄 Research | ASCE JUPD accepted / in production; ICTTS 2026 EI accepted; additional SCI manuscripts under review |
+| 🧮 Optimization background | Logistics facility location, EV routing, pickup-and-delivery routing, robust optimization, scheduling, simulation experiments |
+| 🛠️ AI building practice | Prompt engineering, bad-case review, Agent workflow design, AI-assisted coding, demo delivery, and documentation packaging |
 
-## 🧪 Selected Work
+## 🧪 Selected Public Work
 
-### 🎓 Campus Delivery Agent / 交大微澜
+### 🎓 Jiaoda Weilan / 交大微澜
 
-A conversational campus delivery Agent and runnable local full-stack demo.
+A conversational campus delivery Agent for campus logistics scenarios.
 
-- Led product positioning, core workflow, trusted-Agent boundaries, full-stack demo delivery, testing, and competition materials as AI product lead and team captain.
-- Connected natural-language ordering with structured drafts, missing-field clarification, campus POI validation, price, tidal ETA, routing, and heuristic dispatch.
-- Built around Expo / React Native and Express / TypeScript, with 132 campus POIs, a 642-node / 1,512-edge local road graph, and six simulated vehicles.
-- Boundary: local competition prototype; no real vehicle integration or production deployment is claimed.
+- Led product positioning, Agent workflow design, competition materials, demo delivery, and public-safe project packaging.
+- Reframed campus delivery from form-based ordering into a conversational flow: user intent, missing-field clarification, profile memory, order draft confirmation, POI validation, price, ETA, routing, and dispatch.
+- Built the product around a trusted-Agent boundary: LLM for understanding and interaction; backend logic for deterministic delivery decisions.
+- Public boundary: a competition prototype and demo case study; no real vehicle integration, production deployment, or private campus operation data is claimed.
 
 → [Read the public showcase](https://github.com/Torch-ju/jiaoda-weilan-showcase)
 
 ### 🚚 Freight Matching Agent
 
-An Agentic AI prototype for continuous freight-searching decisions.
+An Agentic AI prototype for continuous freight-searching and logistics decision support.
 
-- Models sequential actions such as accepting a load, waiting, or repositioning.
-- Connects driver preferences and operating constraints with executable rules and short-horizon planning.
-- Uses simulation, parameter experiments, boundary checks, and action logs to diagnose decision quality.
-- Public result: **Top 24 / 963, finalist award**.
+- Designed an online decision workflow for repeated actions such as `take_order`, `wait`, and `reposition`.
+- Converted natural-language hidden preferences into intermediate rules, driver progress ledgers, runtime scoring, and validation gates.
+- Used local simulation, parameter experiments, boundary scans, frozen packages, and action logs to inspect decision quality and failure cases.
+- Public result: **Top 24 / 963, finalist award** in a Manbang logistics AI competition.
 
 → [Read the public case study](https://github.com/Torch-ju/freight-matching-agent)
 
-### 📈 Quant Research Lab
+### 📈 my-quant-lab
 
-A local Python research workbench for A-share and US ETFs.
+A Python research workbench for quant learning, validation discipline, and AI-assisted engineering practice.
 
-- Organizes data quality checks, strategy backtests, parameter scans, out-of-sample and rolling validation, candidate comparison, and QuantStats reports.
-- Provides a Streamlit research dashboard and pytest coverage across the research workflow.
-- Keeps AI-assisted analysis behind human review; it does not connect to brokers, place orders, store credentials, or claim investment returns.
+- Covers data-quality checks, strategy backtests, parameter scans, out-of-sample validation, rolling validation, candidate comparison, reports, and Streamlit visualization.
+- Uses tests, logs, review notes, and human checkpoints to keep AI-assisted analysis inspectable.
+- Public boundary: research and learning only; no broker connection, automated orders, credentials, or return promises.
 
 → [Explore my-quant-lab](https://github.com/Torch-ju/my-quant-lab)
 
-### 🌐 Personal Website
+## 📚 Research
 
-A public-safe map of my research, projects, publications, and technical direction.
+- **Electric Vehicle Pickup and Delivery Routing Optimization Considering Queuing Effects and Wireless Charging Lanes.** ICTTS 2026, accepted.
+- **Three-Party Evolutionary Game Analysis on Logistics Sprawl Intervention and Mitigation Framework for Sustainable Urban Distribution.** *Journal of Urban Planning and Development*, ASCE, accepted / in production. [DOI](https://doi.org/10.1061/JUPDDM/UPENG-6343)
+- Additional manuscripts are under review. I describe them conservatively until formal acceptance.
 
-- Built as a lightweight static GitHub Pages site for fast review on desktop and mobile.
-- Contains no resume download, phone number, private email, application record, or restricted project material.
+## 🧰 Toolkit
 
-→ [Visit the website](https://torch-ju.github.io/)
+- **Optimization:** VRP, EVRPTW, pickup-and-delivery routing, facility location, scheduling, MILP, heuristic search, SAA, Wasserstein DRO, CVaR, TOPSIS.
+- **AI Agent workflow:** prompt engineering, preference extraction, task decomposition, state tracking, tool-use workflow, rule validation, bad-case analysis.
+- **Engineering:** Python, MATLAB, Java, TypeScript / JavaScript, Git, test-driven iteration, AI-assisted coding, documentation, demo packaging.
+- **Product practice:** user scenario decomposition, competitor analysis, PRD writing, priority planning, prototype delivery, demo testing, interview-ready storytelling.
 
-## 📚 Selected Publications
+## 🗺️ Reviewer Path
 
-- **Electric Vehicle Pickup and Delivery Routing Optimization Considering Queuing Effects and Wireless Charging Lanes.** ICTTS 2026. Accepted.
-- **Three-Party Evolutionary Game Analysis on Logistics Sprawl Intervention and Mitigation Framework for Sustainable Urban Distribution.** *Journal of Urban Planning and Development*, ASCE. Accepted / In Production. [DOI](https://doi.org/10.1061/JUPDDM/UPENG-6343)
-
-## 🧰 Research & Engineering Toolkit
-
-- **Operations Research:** vehicle routing, scheduling, mathematical modeling, robust optimization, evolutionary game analysis.
-- **Decision algorithms:** MILP, ALNS, tabu search, rolling optimization, SAA, Wasserstein DRO, CVaR, TOPSIS.
-- **AI Agent practice:** task decomposition, structured interpretation, workflow design, tool integration, result validation, prototype evaluation.
-- **Tools:** Python, MATLAB, PyTorch, Git, and AI-assisted development workflows.
-
-## 🗺️ Reviewer Path: How to Explore My Work
-
-1. Start with the **3C Framework** above to understand the common logic behind my projects.
-2. Read **Campus Delivery Agent / 交大微澜** for product ownership and a full-stack Agent workflow.
-3. Read **Freight Matching Agent** for the Agent + logistics decision-support direction.
-4. Use **my-quant-lab** to inspect engineering, validation, and human-review practices outside logistics.
-5. Visit my [personal website](https://torch-ju.github.io/) for the broader research map. Routing archives remain supporting references, not flagship original projects.
+1. Start with the **SCA Loop** above to understand my positioning.
+2. Read **Jiaoda Weilan** for AI product thinking, conversational logistics flow, and full-stack demo delivery.
+3. Read **Freight Matching Agent** for logistics decision intelligence, Agent workflow, and OR-style validation.
+4. Read **my-quant-lab** for engineering discipline, reproducible experiments, and AI-assisted development practice.
+5. Visit my [personal website](https://torch-ju.github.io/) for a public-safe map of research, projects, and links.
 
 ## 🛡️ Public Boundary
 
-- This profile contains only desensitized, review-safe facts.
-- Direct contact channels, private application records, internal company materials, and restricted screenshots are intentionally excluded.
-- Competition demos and research artifacts are described as prototypes, case studies, or work in progress, not production systems.
-- Forked or archival repositories are learning references unless explicitly identified as original work.
+- This profile is public-safe and intentionally excludes my private resume, phone number, private email, application records, recruiter conversations, credentials, and restricted screenshots.
+- Public projects are described as prototypes, case studies, research workbenches, or competition demos unless there is explicit evidence of production deployment.
+- I keep uncertain paper status, project impact, rankings, and metrics conservative until they are formally verifiable.
 
 ---
 
 <div align="center">
 
-**Building decisions that respect both mathematical structure and operational reality.**
+**Building logistics decisions that an Agent can explain, an optimizer can constrain, and a human can verify.**
 
 </div>
