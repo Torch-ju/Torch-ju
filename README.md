@@ -8,7 +8,7 @@
 
 Transportation PhD candidate at Beijing Jiaotong University, working on how complex logistics contexts can be translated into explicit constraints and defensible decisions.
 
-[Personal Website](https://torch-ju.github.io/) · [Freight Matching Agent](https://github.com/Torch-ju/freight-matching-agent)
+[Personal Website](https://torch-ju.github.io/) · [Campus Delivery Agent](https://github.com/Torch-ju/campus-delivery-agent) · [Freight Matching Agent](https://github.com/Torch-ju/freight-matching-agent) · [Quant Research Lab](https://github.com/Torch-ju/my-quant-lab)
 
 </div>
 
@@ -44,6 +44,17 @@ This is the thread connecting my work in vehicle routing, dynamic scheduling, ro
 
 ## 🧪 Selected Work
 
+### 🎓 Campus Delivery Agent / 交大微澜
+
+A conversational campus delivery Agent and runnable local full-stack demo.
+
+- Led product positioning, core workflow, trusted-Agent boundaries, full-stack demo delivery, testing, and competition materials as AI product lead and team captain.
+- Connected natural-language ordering with structured drafts, missing-field clarification, campus POI validation, price, tidal ETA, routing, and heuristic dispatch.
+- Built around Expo / React Native and Express / TypeScript, with 132 campus POIs, a 642-node / 1,512-edge local road graph, and six simulated vehicles.
+- Boundary: local competition prototype; no real vehicle integration or production deployment is claimed.
+
+→ [Read the public case study](https://github.com/Torch-ju/campus-delivery-agent)
+
 ### 🚚 Freight Matching Agent
 
 An Agentic AI prototype for continuous freight-searching decisions.
@@ -55,32 +66,24 @@ An Agentic AI prototype for continuous freight-searching decisions.
 
 → [Read the public case study](https://github.com/Torch-ju/freight-matching-agent)
 
-### 🚐 Modular Autonomous Logistics Fleet Research
+### 📈 Quant Research Lab
 
-PhD research on modular electric logistics fleet routing and robust scheduling.
+A local Python research workbench for A-share and US ETFs.
 
-- **Context:** urban last-mile delivery with dynamic orders and uncertain demand.
-- **Constraints:** modular composition, capacity-energy coordination, charging, time windows, and service recovery.
-- **Choice:** MILP validation, tabu search / ALNS, rolling optimization, SAA, Wasserstein DRO, CVaR, and recoverable scheduling.
+- Organizes data quality checks, strategy backtests, parameter scans, out-of-sample and rolling validation, candidate comparison, and QuantStats reports.
+- Provides a Streamlit research dashboard and pytest coverage across the research workflow.
+- Keeps AI-assisted analysis behind human review; it does not connect to brokers, place orders, store credentials, or claim investment returns.
 
-Status: research in progress. Public descriptions distinguish proposed methods from completed results.
+→ [Explore my-quant-lab](https://github.com/Torch-ju/my-quant-lab)
 
-### ⚡ Electric Vehicle Pickup-and-Delivery Routing
+### 🌐 Personal Website
 
-Research on electric vehicle pickup-and-delivery routing with queuing effects and wireless charging lanes.
+A public-safe map of my research, projects, publications, and technical direction.
 
-- Accepted by **ICTTS 2026 (EI)**.
-- Focuses on translating charging and queuing operations into routing decisions.
+- Built as a lightweight static GitHub Pages site for fast review on desktop and mobile.
+- Contains no resume download, phone number, private email, application record, or restricted project material.
 
-→ [Explore the related routing repository](https://github.com/Torch-ju/e-vrptw)
-
-### 🎓 Conversational Campus Delivery Agent
-
-A competition prototype exploring natural-language ordering for campus delivery.
-
-- Designed the flow from intent recognition and missing-field clarification to order confirmation and tracking.
-- Connected campus POIs, local road-network data, ETA estimation, and heuristic vehicle dispatch in a runnable demo.
-- Followed the boundary: **LLM for understanding, backend algorithms for decisions**.
+→ [Visit the website](https://torch-ju.github.io/)
 
 ## 📚 Selected Publications
 
@@ -97,9 +100,10 @@ A competition prototype exploring natural-language ordering for campus delivery.
 ## 🗺️ Reviewer Path: How to Explore My Work
 
 1. Start with the **3C Framework** above to understand the common logic behind my projects.
-2. Read the **Freight Matching Agent** case study for my current Agent + logistics direction.
-3. Use routing repositories as evidence of my OR background. `ACS-KM-code` and `jpt-amz` are archival or external-code learning references, not original flagship projects.
-4. Visit my [personal website](https://torch-ju.github.io/) for a broader research and project map.
+2. Read **Campus Delivery Agent** for product ownership and a full-stack Agent workflow.
+3. Read **Freight Matching Agent** for the Agent + logistics decision-support direction.
+4. Use **my-quant-lab** to inspect engineering, validation, and human-review practices outside logistics.
+5. Visit my [personal website](https://torch-ju.github.io/) for the broader research map. Routing archives remain supporting references, not flagship original projects.
 
 ## 🛡️ Public Boundary
 
