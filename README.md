@@ -8,7 +8,7 @@
 
 Transportation PhD candidate at Beijing Jiaotong University, working on how complex logistics contexts can be translated into explicit constraints and defensible decisions.
 
-[Personal Website](https://torch-ju.github.io/) · [Campus Delivery Agent](https://github.com/Torch-ju/campus-delivery-agent) · [Freight Matching Agent](https://github.com/Torch-ju/freight-matching-agent) · [Quant Research Lab](https://github.com/Torch-ju/my-quant-lab)
+[Personal Website](https://torch-ju.github.io/) · [Jiaoda Weilan Showcase](https://github.com/Torch-ju/jiaoda-weilan-showcase) · [Freight Matching Agent](https://github.com/Torch-ju/freight-matching-agent) · [Quant Research Lab](https://github.com/Torch-ju/my-quant-lab)
 
 </div>
 
@@ -53,7 +53,9 @@ A conversational campus delivery Agent and runnable local full-stack demo.
 - Built around Expo / React Native and Express / TypeScript, with 132 campus POIs, a 642-node / 1,512-edge local road graph, and six simulated vehicles.
 - Boundary: local competition prototype; no real vehicle integration or production deployment is claimed.
 
-→ [Read the public case study](https://github.com/Torch-ju/campus-delivery-agent)
+→ [Read the public showcase](https://github.com/Torch-ju/jiaoda-weilan-showcase)
+
+Technical implementation reference: [campus-delivery-agent](https://github.com/Torch-ju/campus-delivery-agent)
 
 ### 🚚 Freight Matching Agent
 
@@ -100,7 +102,7 @@ A public-safe map of my research, projects, publications, and technical directio
 ## 🗺️ Reviewer Path: How to Explore My Work
 
 1. Start with the **3C Framework** above to understand the common logic behind my projects.
-2. Read **Campus Delivery Agent** for product ownership and a full-stack Agent workflow.
+2. Read **Campus Delivery Agent / 交大微澜** for product ownership and a full-stack Agent workflow.
 3. Read **Freight Matching Agent** for the Agent + logistics decision-support direction.
 4. Use **my-quant-lab** to inspect engineering, validation, and human-review practices outside logistics.
 5. Visit my [personal website](https://torch-ju.github.io/) for the broader research map. Routing archives remain supporting references, not flagship original projects.
