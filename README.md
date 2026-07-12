@@ -55,8 +55,6 @@ A conversational campus delivery Agent and runnable local full-stack demo.
 
 → [Read the public showcase](https://github.com/Torch-ju/jiaoda-weilan-showcase)
 
-Technical implementation reference: [campus-delivery-agent](https://github.com/Torch-ju/campus-delivery-agent)
-
 ### 🚚 Freight Matching Agent
 
 An Agentic AI prototype for continuous freight-searching decisions.
